@@ -1,6 +1,50 @@
 * {
     padding: 0;
-    margin: .5rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
+
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    height: 50px;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 25px;
+    }
+}
+
+#menu_content ul {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
     border: 1px solid black;
-    color: red;
+    flex-direction: column;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
 }
